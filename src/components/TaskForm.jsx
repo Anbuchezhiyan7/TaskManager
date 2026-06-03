@@ -21,7 +21,7 @@ export default function TaskForm({ addTask }) {
       <div id="inp">
         <input
           type='text'
-          placeholder='What needs to be done?'
+          placeholder='What is on your mind today?'
           value={task}
           onChange={(e) => setTask(e.target.value)}
         />

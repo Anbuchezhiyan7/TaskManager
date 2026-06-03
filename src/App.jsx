@@ -36,7 +36,7 @@ export default function App() {
     <div className='App'>
       <header>
         <h1 className='title'>TaskFlow</h1>
-        <p className='tagline'>Organize your day, beautifully.</p>
+        <p className='tagline'>Organize your day, effortlessly.</p>
       </header>
 
       <TaskForm addTask={addTask} />
